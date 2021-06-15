@@ -1,0 +1,45 @@
+/* Personalizar o título */
+
+body{
+    /* Alinhamento do texto e inserção de imagem de fundo */
+    text-align: center;
+    background-image: url(https://bit.ly/3g7ht7X); /* inserindo imagem de fundo */
+    /* Remover repetição da tela */
+    background-repeat: no-repeat;
+    /* Posicionamento */
+    background-position: center center;
+    /* Altura do body */
+    height: 100vh; /* pega 100% da altura da janela na medida dela; responsividade */ 
+    /* Tamanho da imagem */
+    background-size: 500px;
+    /* Fixar a imagem de fundo */
+    background-attachment: fixed;
+    /* Cor de fundo*/
+    background-color: black;
+}
+
+p{
+    font-weight: bold;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Personalizando subtítulos */
+#green{
+    color: greenyellow;
+    font-style: italic;
+}
+
+#blue {
+    color:blue;
+    font-weight: bold; /*define a espessura da fonte */ 
+}
+/* o h2 por padrão já é em negrito */ 
+
+.colors {
+    color: orangered;
+    font-size: 24px;
+}

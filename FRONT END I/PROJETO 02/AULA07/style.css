@@ -1,0 +1,48 @@
+html *{
+    margin: 0;
+} /* indica que você quer criar uma costumização para todas as tags */
+
+body{
+    margin: 0;
+    /* Alinhamento do texto e inserção de imagem de fundo */
+    text-align: center;
+    background-image: url(https://bit.ly/3g7ht7X); /* inserindo imagem de fundo */
+    /* Remover repetição da tela */
+    background-repeat: no-repeat;
+    /* Posicionamento */
+    background-position: center center;
+    /* Altura do body */
+    height: 100vh; /* pega 100% da altura da janela na medida dela; responsividade */ 
+    /* Tamanho da imagem */
+    background-size: 500px;
+    /* Fixar a imagem de fundo */
+    background-attachment: fixed;
+    /* Cor de fundo*/
+    background-color: black;
+}
+
+/* o id tem prioridade sobre a classe */
+
+#cabecalho {
+    height: 20vh;
+    background-color:teal;
+    color: white;
+}
+
+#conteudo{
+    height: 60vh;
+    background-color: rgba(169, 169, 169, 0.37);
+}
+
+#conteudo h3{
+    color: yellow;
+}
+
+#rodape{
+    height: 20vh;
+    background-color:dimgray;
+}
+
+.icones{
+    width: 100px;
+}
