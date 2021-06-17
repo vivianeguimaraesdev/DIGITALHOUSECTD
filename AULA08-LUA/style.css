@@ -6,6 +6,7 @@
 #conteudo {
     height: 800px;
     background-color: #797066;
+    object-fit: cover;
 }
 
 .lua {
