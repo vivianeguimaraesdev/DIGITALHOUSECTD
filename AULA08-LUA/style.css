@@ -12,6 +12,11 @@
 .lua {
     height: 200px;
     width: 200px;
+    object-fit: cover;
+    padding: 20px;
+    background-image: linear-gradient(#f57676, #fdfd18);
+    margin: 20px;
+    border: #3E362F 10px solid;
 }
 
 #rodape {
