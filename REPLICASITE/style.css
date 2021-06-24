@@ -29,7 +29,7 @@ main{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background: url('REPLICASITE/IMG/italy.jpg');
+    background: url('IMG/italy.jpg');
     background-size: cover;
 }
 
