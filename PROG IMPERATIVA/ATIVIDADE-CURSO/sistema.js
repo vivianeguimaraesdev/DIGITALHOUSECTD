@@ -17,10 +17,10 @@ console.log(curso.listadeEstudantes)
 console.log(curso)
 
 //Testando
-console.log(curso.aprovarAluno(Victor));
-console.log(curso.aprovarAluno(Alana));
-console.log(curso.aprovarAluno(Lucas));
-console.log(curso.aprovarAluno(Maria));
+console.log(curso.aprovarAluno(victor));
+console.log(curso.aprovarAluno(alana));
+console.log(curso.aprovarAluno(lucas));
+console.log(curso.aprovarAluno(maria));
 
 console.log(curso.listarAprovados());
 
