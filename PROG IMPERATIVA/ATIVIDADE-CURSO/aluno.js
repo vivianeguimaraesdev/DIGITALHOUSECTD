@@ -1,15 +1,6 @@
-// objeto literal Aluno
+// Objeto literal Aluno
+// Arrow function não faz função construtora!
 
-// let pedro = {
-//     nome: "Pedro",
-//     faltas: 2,
-//     notas: [10,6,8,10]
-// }
-
-// console.log(pedro)
-
-// OBS: NÃO É POSSÍVEL USAR ARROW FUNCTION PARA FAZER FUNÇÃO CONSTRUTORA
-// OBS: MAS PODE USAR PARA FAZER OS MÉTODOS
 
 const Aluno = function(nome,faltas,notas){
     this.nome = nome;
@@ -19,7 +10,7 @@ const Aluno = function(nome,faltas,notas){
     this.adicionarFalta = () => this.faltas++;
 }
 
-// Diponibilizando a função para exportar
+// Export
 module.exports = Aluno;
 
 
