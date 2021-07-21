@@ -1,12 +1,11 @@
 const Aluno = require("./aluno");
 
 const curso = {
-    nomeCurso: "Luis Cursos",
+    nomeCurso: "Vivianne Cursos",
     notaDeAprovacao: 7,
     faltasMaximas: 3,
     listadeEstudantes: [],
-    // OBS: IMPORTAR, NÃO PODE USAR ARROW FUNCTION EM MÉTODO DE UM OBJETO LITERAL(NÃO DARIA PARA USAR ARROW FUNCTION NESTE CASO)
-    // OBS: OS TRES PONTOS SE CHAMA PARAMETRO REST, E ELE SERVE PARA PASSAR O PARAMETRO DE QUE VAI SER ADICIONADO UM OU MAIS ELEMENTOS
+   
     adicionarAluno: function(...nomeDoAluno) {
         this.listadeEstudantes.push(...nomeDoAluno)
     },
