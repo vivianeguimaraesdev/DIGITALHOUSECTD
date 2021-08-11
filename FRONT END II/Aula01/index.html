@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio - Médias - AULA 01</title>
+</head>
+<body>
+  <script>
+    //Função para as notas
+    function calcularMedia(notaum,notadois,notatres,notaquatro) {
+    let notas = [notaum,notadois,notatres,notaquatro];
+    let somas = notas.reduce(function(acumulador,nota){
+      console.log(acumulador)
+      return acumulador + nota;
+    })
+    
+    console.log(somas);
+
+    //Calculando a média 
+    let media = somas/notas.length;
+    console.log(media);
+    console.log(`Suas notas dos bimestres foram ${notaum}, ${notadois}, ${notatres} e ${notaquatro}. Sua média foi: ${media}`);
+    
+    // Aprovados e Reprovados
+    if(media > 7) {
+      console.log("Uhul! Você foi aprovado!);
+    } else {
+      console.log("Sad, but true! Você foi reprovado. Vamos tentar de novo?");
+    }
+  }
+
+  calcularMedia(1,2,3,4);
+  calcularMedia(9,7,6,8);
+  </script>
+</body>
+</html>
